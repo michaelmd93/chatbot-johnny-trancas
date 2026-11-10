@@ -1,0 +1,39 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (nunca commitar)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Banco de dados (dumps/arquivos locais, mas NÃO migrations/schemas versionados)
+*.db
+*.sqlite
+*.sqlite3
+# Observação: scripts SQL em database/ são versionados (schema, migrations, seeds)
+
+# Build
+dist/
+build/
+
+# Arquivos residuais do Windows
+nul
